@@ -16,5 +16,10 @@ namespace CafeManagementNH
         {
             InitializeComponent();
         }
+
+        private void AdminPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
