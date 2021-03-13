@@ -16,5 +16,38 @@ namespace CafeManagementNH
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ClientPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblDate.Text = DateTime.Now.ToString();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            Form1 f = new Form1();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }

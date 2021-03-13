@@ -81,6 +81,12 @@
     <EmbeddedResource Include="AdminPage.resx">
       <DependentUpon>AdminPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ClientPage.resx">
+      <DependentUpon>ClientPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +141,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\delete_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croissant_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant_building_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\java_bean_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tea_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tea_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\java_bean_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_32px..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -72,7 +72,7 @@ namespace CafeManagementNH
             f.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Close();
         }
