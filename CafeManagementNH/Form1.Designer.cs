@@ -104,7 +104,7 @@
             this.label1.BackColor = System.Drawing.Color.BurlyWood;
             this.label1.Font = new System.Drawing.Font("Script MT Bold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.label1.Location = new System.Drawing.Point(59, 6);
+            this.label1.Location = new System.Drawing.Point(64, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 35);
             this.label1.TabIndex = 13;
@@ -153,7 +153,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.BurlyWood;
             this.pictureBox3.Image = global::CafeManagementNH.Properties.Resources.cafe_100px;
-            this.pictureBox3.Location = new System.Drawing.Point(130, 37);
+            this.pictureBox3.Location = new System.Drawing.Point(135, 37);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(54, 54);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

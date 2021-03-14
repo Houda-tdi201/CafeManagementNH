@@ -14,15 +14,22 @@ namespace CafeManagementNH
 {
     public partial class AdminPage : Form
     {
-        
+        private string _username;
+
         public AdminPage()
         {
             InitializeComponent();
         }
 
+        public AdminPage(string UserName)
+        {
+            InitializeComponent();
+            _username = UserName;
+        }
+
         private void AdminPage_Load(object sender, EventArgs e)
         {
-
+            lblHello.Text = "Hello " + _username + " !";
         }
 
         private void btnItem_Click(object sender, EventArgs e)

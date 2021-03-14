@@ -40,16 +40,16 @@ namespace CafeManagementNH
             SqlDataReader dr = com.ExecuteReader();
             if (dr.Read())
             {
-                if (txtName.Text.ToLower() == "admin" && txtPass.Text.ToLower() == "admin123")
+                if (txtName.Text.ToLower() == "admin")
                 {
-                    AdminPage f = new AdminPage();
+                    AdminPage f = new AdminPage(txtName.Text);
                     this.Hide();
                     f.ShowDialog();
                     this.Close();
                 }
                 else
                 {
-                    ClientPage f = new ClientPage();
+                    ClientPage f = new ClientPage(txtName.Text);
                     this.Hide();
                     f.ShowDialog();
                     this.Close();

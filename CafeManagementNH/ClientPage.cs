@@ -12,9 +12,16 @@ namespace CafeManagementNH
 {
     public partial class ClientPage : Form
     {
+        private string _username;
+
         public ClientPage()
         {
             InitializeComponent();
+        }
+        public ClientPage(string UserName)
+        {
+            InitializeComponent();
+            _username = UserName;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -24,7 +31,7 @@ namespace CafeManagementNH
 
         private void ClientPage_Load(object sender, EventArgs e)
         {
-
+            lblHello.Text="Hello "+_username+" !";
         }
 
         private void timer1_Tick(object sender, EventArgs e)

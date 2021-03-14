@@ -54,6 +54,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.lblHello = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -315,7 +316,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(451, 228);
+            this.label5.Location = new System.Drawing.Point(474, 284);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(299, 27);
             this.label5.TabIndex = 7;
@@ -326,11 +327,11 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(304, 195);
+            this.label4.Location = new System.Drawing.Point(327, 251);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(290, 27);
+            this.label4.Size = new System.Drawing.Size(275, 27);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Welcome back to your Coffee System ";
+            this.label4.Text = "Welcome back to your Cafe System ";
             // 
             // timer1
             // 
@@ -350,6 +351,17 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "        Admin Page";
             // 
+            // lblHello
+            // 
+            this.lblHello.AutoSize = true;
+            this.lblHello.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblHello.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHello.Location = new System.Drawing.Point(474, 129);
+            this.lblHello.Name = "lblHello";
+            this.lblHello.Size = new System.Drawing.Size(63, 27);
+            this.lblHello.TabIndex = 25;
+            this.lblHello.Text = "Hello!";
+            // 
             // AdminPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +369,7 @@
             this.BackgroundImage = global::CafeManagementNH.Properties.Resources._091d4f1bebc76ea61eec0b9d8af26e5f;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(881, 491);
+            this.Controls.Add(this.lblHello);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -409,5 +422,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblHello;
     }
 }

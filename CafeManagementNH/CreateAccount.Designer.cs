@@ -244,8 +244,9 @@
             this.label10.ForeColor = System.Drawing.Color.Red;
             this.label10.Location = new System.Drawing.Point(197, 179);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(0, 17);
+            this.label10.Size = new System.Drawing.Size(101, 17);
             this.label10.TabIndex = 24;
+            this.label10.Text = "UserNameError";
             // 
             // label11
             // 
@@ -255,8 +256,9 @@
             this.label11.ForeColor = System.Drawing.Color.Red;
             this.label11.Location = new System.Drawing.Point(611, 179);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 17);
+            this.label11.Size = new System.Drawing.Size(64, 17);
             this.label11.TabIndex = 25;
+            this.label11.Text = "passError";
             // 
             // CreateAccount
             // 

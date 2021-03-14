@@ -52,6 +52,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblHello = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -292,18 +293,18 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(330, 167);
+            this.label4.Location = new System.Drawing.Point(345, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(288, 27);
+            this.label4.Size = new System.Drawing.Size(273, 27);
             this.label4.TabIndex = 22;
-            this.label4.Text = "Welcome to Friendship Coffee App ";
+            this.label4.Text = "Welcome to Friendship Cafe App ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(526, 202);
+            this.label1.Location = new System.Drawing.Point(541, 217);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(215, 27);
             this.label1.TabIndex = 23;
@@ -313,6 +314,17 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // lblHello
+            // 
+            this.lblHello.AutoSize = true;
+            this.lblHello.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblHello.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHello.Location = new System.Drawing.Point(458, 90);
+            this.lblHello.Name = "lblHello";
+            this.lblHello.Size = new System.Drawing.Size(63, 27);
+            this.lblHello.TabIndex = 24;
+            this.lblHello.Text = "Hello!";
+            // 
             // ClientPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -320,6 +332,7 @@
             this.BackgroundImage = global::CafeManagementNH.Properties.Resources._091d4f1bebc76ea61eec0b9d8af26e5f1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(881, 491);
+            this.Controls.Add(this.lblHello);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -371,5 +384,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblHello;
     }
 }
