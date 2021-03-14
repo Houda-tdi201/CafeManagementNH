@@ -104,11 +104,11 @@
             this.label1.BackColor = System.Drawing.Color.BurlyWood;
             this.label1.Font = new System.Drawing.Font("Script MT Bold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.label1.Location = new System.Drawing.Point(60, 6);
+            this.label1.Location = new System.Drawing.Point(59, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 35);
+            this.label1.Size = new System.Drawing.Size(200, 35);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Friendship Coffee";
+            this.label1.Text = "Friendship Cafe";
             // 
             // linkAccount
             // 

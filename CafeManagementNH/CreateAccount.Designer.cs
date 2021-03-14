@@ -37,15 +37,17 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txt_FName = new System.Windows.Forms.TextBox();
+            this.txt_Username = new System.Windows.Forms.TextBox();
+            this.txtAdress = new System.Windows.Forms.TextBox();
+            this.txtLName = new System.Windows.Forms.TextBox();
+            this.txt_pass = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txt_tel = new System.Windows.Forms.TextBox();
+            this.btnAddAcount = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -134,7 +136,7 @@
             this.label8.BackColor = System.Drawing.Color.Tan;
             this.label8.Font = new System.Drawing.Font("Script MT Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.label8.Location = new System.Drawing.Point(277, 362);
+            this.label8.Location = new System.Drawing.Point(312, 362);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 25);
             this.label8.TabIndex = 12;
@@ -146,76 +148,77 @@
             this.label9.BackColor = System.Drawing.Color.Tan;
             this.label9.Font = new System.Drawing.Font("Script MT Bold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.label9.Location = new System.Drawing.Point(373, 21);
+            this.label9.Location = new System.Drawing.Point(387, 21);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 35);
             this.label9.TabIndex = 13;
             this.label9.Text = "Sign Up";
             // 
-            // textBox1
+            // txt_FName
             // 
-            this.textBox1.Location = new System.Drawing.Point(194, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
-            this.textBox1.TabIndex = 14;
+            this.txt_FName.Location = new System.Drawing.Point(194, 116);
+            this.txt_FName.Name = "txt_FName";
+            this.txt_FName.Size = new System.Drawing.Size(198, 20);
+            this.txt_FName.TabIndex = 14;
             // 
-            // textBox2
+            // txt_Username
             // 
-            this.textBox2.Location = new System.Drawing.Point(194, 198);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(198, 20);
-            this.textBox2.TabIndex = 15;
+            this.txt_Username.Location = new System.Drawing.Point(194, 198);
+            this.txt_Username.Name = "txt_Username";
+            this.txt_Username.Size = new System.Drawing.Size(198, 20);
+            this.txt_Username.TabIndex = 15;
             // 
-            // textBox3
+            // txtAdress
             // 
-            this.textBox3.Location = new System.Drawing.Point(194, 296);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(198, 20);
-            this.textBox3.TabIndex = 16;
+            this.txtAdress.Location = new System.Drawing.Point(194, 296);
+            this.txtAdress.Name = "txtAdress";
+            this.txtAdress.Size = new System.Drawing.Size(198, 20);
+            this.txtAdress.TabIndex = 16;
             // 
-            // textBox4
+            // txtLName
             // 
-            this.textBox4.Location = new System.Drawing.Point(607, 116);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(198, 20);
-            this.textBox4.TabIndex = 17;
+            this.txtLName.Location = new System.Drawing.Point(607, 116);
+            this.txtLName.Name = "txtLName";
+            this.txtLName.Size = new System.Drawing.Size(198, 20);
+            this.txtLName.TabIndex = 17;
             // 
-            // textBox5
+            // txt_pass
             // 
-            this.textBox5.Location = new System.Drawing.Point(607, 204);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(198, 20);
-            this.textBox5.TabIndex = 18;
+            this.txt_pass.Location = new System.Drawing.Point(607, 204);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.Size = new System.Drawing.Size(198, 20);
+            this.txt_pass.TabIndex = 18;
             // 
-            // textBox6
+            // txtEmail
             // 
-            this.textBox6.Location = new System.Drawing.Point(607, 296);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(198, 20);
-            this.textBox6.TabIndex = 19;
+            this.txtEmail.Location = new System.Drawing.Point(607, 296);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(198, 20);
+            this.txtEmail.TabIndex = 19;
             // 
-            // textBox7
+            // txt_tel
             // 
-            this.textBox7.Location = new System.Drawing.Point(335, 368);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(198, 20);
-            this.textBox7.TabIndex = 20;
+            this.txt_tel.Location = new System.Drawing.Point(370, 368);
+            this.txt_tel.Name = "txt_tel";
+            this.txt_tel.Size = new System.Drawing.Size(198, 20);
+            this.txt_tel.TabIndex = 20;
             // 
-            // button1
+            // btnAddAcount
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.BurlyWood;
-            this.button1.FlatAppearance.BorderSize = 5;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(692, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 50);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Add Acount";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAddAcount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
+            this.btnAddAcount.FlatAppearance.BorderColor = System.Drawing.Color.BurlyWood;
+            this.btnAddAcount.FlatAppearance.BorderSize = 5;
+            this.btnAddAcount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddAcount.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAcount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddAcount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddAcount.Location = new System.Drawing.Point(692, 402);
+            this.btnAddAcount.Name = "btnAddAcount";
+            this.btnAddAcount.Size = new System.Drawing.Size(156, 50);
+            this.btnAddAcount.TabIndex = 22;
+            this.btnAddAcount.Text = "Add Acount";
+            this.btnAddAcount.UseVisualStyleBackColor = false;
+            this.btnAddAcount.Click += new System.EventHandler(this.btnAddAcount_Click);
             // 
             // button2
             // 
@@ -233,6 +236,28 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.SystemColors.Control;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(197, 179);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(0, 17);
+            this.label10.TabIndex = 24;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Red;
+            this.label11.Location = new System.Drawing.Point(611, 179);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(0, 17);
+            this.label11.TabIndex = 25;
+            // 
             // CreateAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,15 +265,17 @@
             this.BackgroundImage = global::CafeManagementNH.Properties.Resources.coffee_background_wood_planks_engraving_style_281653_1167;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(881, 491);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnAddAcount);
+            this.Controls.Add(this.txt_tel);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txt_pass);
+            this.Controls.Add(this.txtLName);
+            this.Controls.Add(this.txtAdress);
+            this.Controls.Add(this.txt_Username);
+            this.Controls.Add(this.txt_FName);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -277,14 +304,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_FName;
+        private System.Windows.Forms.TextBox txt_Username;
+        private System.Windows.Forms.TextBox txtAdress;
+        private System.Windows.Forms.TextBox txtLName;
+        private System.Windows.Forms.TextBox txt_pass;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txt_tel;
+        private System.Windows.Forms.Button btnAddAcount;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }
