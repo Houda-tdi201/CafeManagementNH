@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateAccount));
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -209,14 +210,16 @@
             this.btnAddAcount.FlatAppearance.BorderColor = System.Drawing.Color.BurlyWood;
             this.btnAddAcount.FlatAppearance.BorderSize = 5;
             this.btnAddAcount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddAcount.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAcount.Font = new System.Drawing.Font("Script MT Bold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddAcount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAddAcount.Image = ((System.Drawing.Image)(resources.GetObject("btnAddAcount.Image")));
             this.btnAddAcount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddAcount.Location = new System.Drawing.Point(692, 402);
             this.btnAddAcount.Name = "btnAddAcount";
-            this.btnAddAcount.Size = new System.Drawing.Size(156, 50);
+            this.btnAddAcount.Size = new System.Drawing.Size(157, 50);
             this.btnAddAcount.TabIndex = 22;
             this.btnAddAcount.Text = "Add Acount";
+            this.btnAddAcount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAddAcount.UseVisualStyleBackColor = false;
             this.btnAddAcount.Click += new System.EventHandler(this.btnAddAcount_Click);
             // 
@@ -228,10 +231,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::CafeManagementNH.Properties.Resources.back_50px;
+            this.button2.Image = global::CafeManagementNH.Properties.Resources.back_32px;
             this.button2.Location = new System.Drawing.Point(4, 6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(43, 50);
+            this.button2.Size = new System.Drawing.Size(46, 36);
             this.button2.TabIndex = 23;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -239,26 +242,24 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.Control;
+            this.label10.BackColor = System.Drawing.Color.Tan;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
             this.label10.Location = new System.Drawing.Point(197, 179);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(101, 17);
+            this.label10.Size = new System.Drawing.Size(0, 17);
             this.label10.TabIndex = 24;
-            this.label10.Text = "UserNameError";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.BackColor = System.Drawing.Color.Tan;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Red;
             this.label11.Location = new System.Drawing.Point(611, 179);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 17);
+            this.label11.Size = new System.Drawing.Size(0, 17);
             this.label11.TabIndex = 25;
-            this.label11.Text = "passError";
             // 
             // CreateAccount
             // 
@@ -290,6 +291,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CreateAccount";
             this.Text = "CreateAccount";
+            this.Load += new System.EventHandler(this.CreateAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -59,6 +59,12 @@
       <DependentUpon>cafeManagementNHDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="CApropriete.cs" />
+    <Compile Include="ClientManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientManage.Designer.cs">
+      <DependentUpon>ClientManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClientPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,10 +83,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ItemManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemManage.Designer.cs">
+      <DependentUpon>ItemManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdminPage.resx">
       <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientManage.resx">
+      <DependentUpon>ClientManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ClientPage.resx">
       <DependentUpon>ClientPage.cs</DependentUpon>
@@ -90,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemManage.resx">
+      <DependentUpon>ItemManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -210,6 +228,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v666-sasi-20-coffeeday_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v666-sasi-20-coffeeday_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5f3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5fnn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5fnn1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

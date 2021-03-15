@@ -38,8 +38,8 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.sidePanel = new System.Windows.Forms.Panel();
-            this.btnClient = new System.Windows.Forms.Button();
-            this.btnItem = new System.Windows.Forms.Button();
+            this.btnOrder = new System.Windows.Forms.Button();
+            this.btnProfil = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
@@ -75,8 +75,8 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.sidePanel);
-            this.panel1.Controls.Add(this.btnClient);
-            this.panel1.Controls.Add(this.btnItem);
+            this.panel1.Controls.Add(this.btnOrder);
+            this.panel1.Controls.Add(this.btnProfil);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -157,37 +157,39 @@
             this.sidePanel.Size = new System.Drawing.Size(13, 50);
             this.sidePanel.TabIndex = 19;
             // 
-            // btnClient
+            // btnOrder
             // 
-            this.btnClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.btnClient.FlatAppearance.BorderSize = 0;
-            this.btnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClient.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClient.ForeColor = System.Drawing.Color.White;
-            this.btnClient.Image = ((System.Drawing.Image)(resources.GetObject("btnClient.Image")));
-            this.btnClient.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClient.Location = new System.Drawing.Point(11, 179);
-            this.btnClient.Name = "btnClient";
-            this.btnClient.Size = new System.Drawing.Size(194, 50);
-            this.btnClient.TabIndex = 16;
-            this.btnClient.Text = "Order";
-            this.btnClient.UseVisualStyleBackColor = false;
+            this.btnOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
+            this.btnOrder.FlatAppearance.BorderSize = 0;
+            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrder.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrder.ForeColor = System.Drawing.Color.White;
+            this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
+            this.btnOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrder.Location = new System.Drawing.Point(11, 179);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(194, 50);
+            this.btnOrder.TabIndex = 16;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = false;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
-            // btnItem
+            // btnProfil
             // 
-            this.btnItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
-            this.btnItem.FlatAppearance.BorderSize = 0;
-            this.btnItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnItem.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnItem.Image = ((System.Drawing.Image)(resources.GetObject("btnItem.Image")));
-            this.btnItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnItem.Location = new System.Drawing.Point(12, 123);
-            this.btnItem.Name = "btnItem";
-            this.btnItem.Size = new System.Drawing.Size(193, 50);
-            this.btnItem.TabIndex = 15;
-            this.btnItem.Text = "Profil";
-            this.btnItem.UseVisualStyleBackColor = false;
+            this.btnProfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
+            this.btnProfil.FlatAppearance.BorderSize = 0;
+            this.btnProfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfil.Font = new System.Drawing.Font("Script MT Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfil.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnProfil.Image = ((System.Drawing.Image)(resources.GetObject("btnProfil.Image")));
+            this.btnProfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProfil.Location = new System.Drawing.Point(12, 123);
+            this.btnProfil.Name = "btnProfil";
+            this.btnProfil.Size = new System.Drawing.Size(193, 50);
+            this.btnProfil.TabIndex = 15;
+            this.btnProfil.Text = "Profil";
+            this.btnProfil.UseVisualStyleBackColor = false;
+            this.btnProfil.Click += new System.EventHandler(this.btnItem_Click);
             // 
             // panel3
             // 
@@ -319,7 +321,7 @@
             this.lblHello.AutoSize = true;
             this.lblHello.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblHello.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHello.Location = new System.Drawing.Point(458, 90);
+            this.lblHello.Location = new System.Drawing.Point(457, 87);
             this.lblHello.Name = "lblHello";
             this.lblHello.Size = new System.Drawing.Size(63, 27);
             this.lblHello.TabIndex = 24;
@@ -375,8 +377,8 @@
         private System.Windows.Forms.Button btnLog;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel sidePanel;
-        private System.Windows.Forms.Button btnClient;
-        private System.Windows.Forms.Button btnItem;
+        private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnProfil;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel5;

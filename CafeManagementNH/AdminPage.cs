@@ -36,12 +36,17 @@ namespace CafeManagementNH
         {
             sidePanel.Height = btnItem.Height;
             sidePanel.Top = btnItem.Top;
+            ItemManage i = new ItemManage();
+            i.ShowDialog();
         }
 
         private void btnClient_Click(object sender, EventArgs e)
         {
             sidePanel.Height = btnClient.Height;
             sidePanel.Top = btnClient.Top;
+
+            ClientManage c = new ClientManage();
+            c.ShowDialog();
         }
 
         private void btnOrder_Click(object sender, EventArgs e)
@@ -82,6 +87,9 @@ namespace CafeManagementNH
             this.Close();
         }
 
-       
+        private void lblHello_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -173,7 +173,7 @@
             this.btnCat.Name = "btnCat";
             this.btnCat.Size = new System.Drawing.Size(194, 50);
             this.btnCat.TabIndex = 10;
-            this.btnCat.Text = "Categorie Manage";
+            this.btnCat.Text = "Category Manage";
             this.btnCat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCat.UseVisualStyleBackColor = false;
             this.btnCat.Click += new System.EventHandler(this.btnCat_Click);
@@ -316,7 +316,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(474, 284);
+            this.label5.Location = new System.Drawing.Point(474, 260);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(299, 27);
             this.label5.TabIndex = 7;
@@ -327,7 +327,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label4.Font = new System.Drawing.Font("Gigi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(327, 251);
+            this.label4.Location = new System.Drawing.Point(328, 219);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(275, 27);
             this.label4.TabIndex = 6;
@@ -361,6 +361,7 @@
             this.lblHello.Size = new System.Drawing.Size(63, 27);
             this.lblHello.TabIndex = 25;
             this.lblHello.Text = "Hello!";
+            this.lblHello.Click += new System.EventHandler(this.lblHello_Click);
             // 
             // AdminPage
             // 
