@@ -30,6 +30,7 @@ namespace CafeManagementNH
         private void AdminPage_Load(object sender, EventArgs e)
         {
             lblHello.Text = "Hello " + _username + " !";
+            lblUser.Text = "Welcome " + _username + " !";
         }
 
         private void btnItem_Click(object sender, EventArgs e)
@@ -59,6 +60,9 @@ namespace CafeManagementNH
         {
             sidePanel.Height = btnCat.Height;
             sidePanel.Top = btnCat.Top;
+
+            CategorieManage c = new CategorieManage();
+            c.ShowDialog();
         }
 
         

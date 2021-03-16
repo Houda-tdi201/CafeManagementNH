@@ -59,6 +59,12 @@
       <DependentUpon>cafeManagementNHDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="CApropriete.cs" />
+    <Compile Include="CategorieManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategorieManage.Designer.cs">
+      <DependentUpon>CategorieManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClientManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,10 +95,20 @@
     <Compile Include="ItemManage.Designer.cs">
       <DependentUpon>ItemManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyLib.cs" />
+    <Compile Include="Profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.cs">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdminPage.resx">
       <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategorieManage.resx">
+      <DependentUpon>CategorieManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ClientManage.resx">
       <DependentUpon>ClientManage.cs</DependentUpon>
@@ -108,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ItemManage.resx">
       <DependentUpon>ItemManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -255,6 +274,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5fnn1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\091d4f1bebc76ea61eec0b9d8af26e5fnn2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-background-wood-planks-engraving-style_281653-11671.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_checkbox_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox_x_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_checkbox_32px..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_24px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

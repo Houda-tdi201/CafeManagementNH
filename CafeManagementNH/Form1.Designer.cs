@@ -59,9 +59,11 @@
             // txtPass
             // 
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(138, 181);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(146, 13);
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(146, 15);
             this.txtPass.TabIndex = 9;
             // 
             // label3

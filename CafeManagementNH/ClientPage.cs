@@ -31,7 +31,8 @@ namespace CafeManagementNH
 
         private void ClientPage_Load(object sender, EventArgs e)
         {
-            lblHello.Text="Welcome "+_username+" !";
+            lblHello.Text="Hello "+_username+" !";
+            lblUser.Text = "Welcome " + _username + " !";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -61,6 +62,11 @@ namespace CafeManagementNH
         {
             sidePanel.Height = btnProfil.Height;
             sidePanel.Top = btnProfil.Top;
+
+            
+            Profil p = new Profil(_username);
+            p.ShowDialog();
+            this.Close();
         }
 
         private void btnOrder_Click(object sender, EventArgs e)
@@ -68,5 +74,7 @@ namespace CafeManagementNH
             sidePanel.Height = btnOrder.Height;
             sidePanel.Top = btnOrder.Top;
         }
+
+        
     }
 }
