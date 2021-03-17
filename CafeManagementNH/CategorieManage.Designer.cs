@@ -143,7 +143,7 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Script MT Bold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAdd.Location = new System.Drawing.Point(195, 79);
+            this.btnAdd.Location = new System.Drawing.Point(196, 79);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(61, 20);
             this.btnAdd.TabIndex = 43;
@@ -210,11 +210,12 @@
             // btnValidate
             // 
             this.btnValidate.BackColor = System.Drawing.Color.Wheat;
+            this.btnValidate.FlatAppearance.BorderSize = 0;
             this.btnValidate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnValidate.Image = global::CafeManagementNH.Properties.Resources.checked_checkbox_32px_;
+            this.btnValidate.Image = global::CafeManagementNH.Properties.Resources.checked_checkbox_32px1;
             this.btnValidate.Location = new System.Drawing.Point(196, 76);
             this.btnValidate.Name = "btnValidate";
-            this.btnValidate.Size = new System.Drawing.Size(22, 23);
+            this.btnValidate.Size = new System.Drawing.Size(33, 23);
             this.btnValidate.TabIndex = 50;
             this.btnValidate.UseVisualStyleBackColor = false;
             this.btnValidate.Click += new System.EventHandler(this.btnValidate_Click);
@@ -222,6 +223,7 @@
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Wheat;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Image = global::CafeManagementNH.Properties.Resources.multiply_24px1;
             this.btnCancel.Location = new System.Drawing.Point(235, 76);

@@ -157,6 +157,9 @@
   <data name="coffee-background-wood-planks-engraving-style_281653-11671" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coffee-background-wood-planks-engraving-style_281653-11671.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="waste_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waste_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close_window_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_window_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +171,9 @@
   </data>
   <data name="down_32px." type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\down_32px..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffee-background-wood-planks-engraving-style_281653-1167" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee-background-wood-planks-engraving-style_281653-1167.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="checkmark_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checkmark_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,8 +190,14 @@
   <data name="091d4f1bebc76ea61eec0b9d8af26e5f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\091d4f1bebc76ea61eec0b9d8af26e5f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="back_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked_checkbox_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checked_checkbox_32px.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +211,8 @@
   <data name="java_bean_32px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\java_bean_32px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cafeBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cafeBackground1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="restaurant_building_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant_building_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="091d4f1bebc76ea61eec0b9d8af26e5f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\091d4f1bebc76ea61eec0b9d8af26e5f3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +220,8 @@
   <data name="java_bean_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\java_bean_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coffee-background-wood-planks-engraving-style_281653-1167" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coffee-background-wood-planks-engraving-style_281653-1167.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cafeBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafeBackground1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="téléchargement" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\téléchargement.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,8 +235,8 @@
   <data name="roundedtxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\roundedtxt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cup_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cup_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="v666-sasi-20-coffeeday_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v666-sasi-20-coffeeday_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cafe_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cafe_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,14 +244,17 @@
   <data name="checked_checkbox_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checked_checkbox_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="checkmark_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkmark_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="down_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\down_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="edit_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="back_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multiply_24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiply_24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="checked_checkbox_32px." type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checked_checkbox_32px..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +268,8 @@
   <data name="téléchargement (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\téléchargement (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="waste_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\waste_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cup_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="091d4f1bebc76ea61eec0b9d8af26e5fnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\091d4f1bebc76ea61eec0b9d8af26e5fnn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,22 +283,19 @@
   <data name="091d4f1bebc76ea61eec0b9d8af26e5f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\091d4f1bebc76ea61eec0b9d8af26e5f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="restaurant_building_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\restaurant_building_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tea_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tea_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tea_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tea_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multiply_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiply_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="croissant_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\croissant_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="multiply_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\multiply_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="multiply_24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\multiply_24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menubackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menubackground1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
