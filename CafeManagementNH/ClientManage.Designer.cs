@@ -55,6 +55,7 @@
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -223,7 +224,7 @@
             this.btnEdit.Font = new System.Drawing.Font("Script MT Bold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEdit.Location = new System.Drawing.Point(335, 342);
+            this.btnEdit.Location = new System.Drawing.Point(394, 342);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(108, 38);
             this.btnEdit.TabIndex = 61;
@@ -240,7 +241,7 @@
             this.btnDelete.Font = new System.Drawing.Font("Script MT Bold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(449, 342);
+            this.btnDelete.Location = new System.Drawing.Point(508, 342);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(108, 38);
             this.btnDelete.TabIndex = 60;
@@ -406,6 +407,23 @@
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(56)))), ((int)(((byte)(20)))));
+            this.btnAdd.FlatAppearance.BorderColor = System.Drawing.Color.BurlyWood;
+            this.btnAdd.FlatAppearance.BorderSize = 3;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Script MT Bold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.Location = new System.Drawing.Point(280, 342);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(108, 38);
+            this.btnAdd.TabIndex = 66;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // ClientManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -414,6 +432,7 @@
             this.BackgroundImage = global::CafeManagementNH.Properties.Resources._091d4f1bebc76ea61eec0b9d8af26e5fnn1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(668, 429);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btncCancel);
             this.Controls.Add(this.btnValidate);
             this.Controls.Add(this.pictureBox4);
@@ -467,5 +486,6 @@
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnAdd;
     }
 }

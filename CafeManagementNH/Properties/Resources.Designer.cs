@@ -424,6 +424,16 @@ namespace CafeManagementNH.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__10_1 {
+            get {
+                object obj = ResourceManager.GetObject("images (10)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__2_ {
             get {
                 object obj = ResourceManager.GetObject("images (2)", resourceCulture);
@@ -637,6 +647,16 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap v666_sasi_20_coffeeday_12 {
             get {
                 object obj = ResourceManager.GetObject("v666-sasi-20-coffeeday_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v666_sasi_20_coffeeday_13 {
+            get {
+                object obj = ResourceManager.GetObject("v666-sasi-20-coffeeday_13", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

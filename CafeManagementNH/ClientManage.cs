@@ -65,6 +65,7 @@ namespace CafeManagementNH
             btnPrevious.Enabled = v;
             btnDelete.Visible = v;
             btnEdit.Visible = v;
+            btnAdd.Visible = v;
 
             btncCancel.Visible = !v;
             btnValidate.Visible = !v;
@@ -127,6 +128,12 @@ namespace CafeManagementNH
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            bsClient.AddNew();
+            activate(false);
         }
     }
 }

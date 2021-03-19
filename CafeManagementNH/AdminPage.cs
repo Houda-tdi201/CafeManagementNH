@@ -54,6 +54,9 @@ namespace CafeManagementNH
         {
             sidePanel.Height = btnOrder.Height;
             sidePanel.Top = btnOrder.Top;
+
+            OrderManage o = new OrderManage();
+            o.ShowDialog();
         }
 
         private void btnCat_Click(object sender, EventArgs e)
