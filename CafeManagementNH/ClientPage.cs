@@ -73,11 +73,13 @@ namespace CafeManagementNH
         {
             sidePanel.Height = btnOrder.Height;
             sidePanel.Top = btnOrder.Top;
+            Order o = new Order(_username);
+            o.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Menu m = new Menu();
+            Menu m = new Menu(_username);
             m.ShowDialog();
         }
     }

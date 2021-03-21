@@ -154,6 +154,16 @@ namespace CafeManagementNH.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_32px1 {
+            get {
+                object obj = ResourceManager.GetObject("add_32px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap back_32px {
             get {
                 object obj = ResourceManager.GetObject("back_32px", resourceCulture);
@@ -244,9 +254,39 @@ namespace CafeManagementNH.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checkmark_26px {
+            get {
+                object obj = ResourceManager.GetObject("checkmark_26px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap checkmark_26px1 {
+            get {
+                object obj = ResourceManager.GetObject("checkmark_26px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap checkmark_32px {
             get {
                 object obj = ResourceManager.GetObject("checkmark_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap checkmark_50px {
+            get {
+                object obj = ResourceManager.GetObject("checkmark_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -287,6 +327,26 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap coffee_background_wood_planks_engraving_style_281653_11671 {
             get {
                 object obj = ResourceManager.GetObject("coffee-background-wood-planks-engraving-style_281653-11671", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_to_go_50px {
+            get {
+                object obj = ResourceManager.GetObject("coffee_to_go_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_to_go_80px {
+            get {
+                object obj = ResourceManager.GetObject("coffee_to_go_80px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -514,6 +574,26 @@ namespace CafeManagementNH.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menubackground11 {
+            get {
+                object obj = ResourceManager.GetObject("menubackground11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menubackground12 {
+            get {
+                object obj = ResourceManager.GetObject("menubackground12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap multiply_24px {
             get {
                 object obj = ResourceManager.GetObject("multiply_24px", resourceCulture);
@@ -537,6 +617,16 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap realistic_coffee_background_with_drawings_79603_607 {
             get {
                 object obj = ResourceManager.GetObject("realistic-coffee-background-with-drawings_79603-607", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap realistic_coffee_background_with_drawings_79603_6071 {
+            get {
+                object obj = ResourceManager.GetObject("realistic-coffee-background-with-drawings_79603-6071", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -577,6 +667,16 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap tea_32px {
             get {
                 object obj = ResourceManager.GetObject("tea_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tea_cup_100px {
+            get {
+                object obj = ResourceManager.GetObject("tea_cup_100px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

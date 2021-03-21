@@ -14,6 +14,8 @@ namespace CafeManagementNH
 {
     public partial class Menu : Form
     {
+        private string _name;
+
         DataSet ds = new DataSet();
         SqlDataAdapter daCat;
         BindingSource bsCat = new BindingSource();
@@ -22,6 +24,11 @@ namespace CafeManagementNH
         public Menu()
         {
             InitializeComponent();
+        }
+        public Menu(string Username)
+        {
+            InitializeComponent();
+            _name = Username;
         }
 
         private void Menu_Load(object sender, EventArgs e)
@@ -110,6 +117,11 @@ namespace CafeManagementNH
             chargeInfo();
         }
 
-        
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            Order o = new Order(_name);
+            o.ShowDialog();
+            this.Close();
+        }
     }
 }

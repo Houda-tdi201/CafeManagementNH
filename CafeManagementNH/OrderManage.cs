@@ -305,6 +305,10 @@ namespace CafeManagementNH
                 dr.Close();
                 dr = null;
             }
+            else
+            {
+                MessageBox.Show("Choose an item to Edit!");
+            }
         }
 
         private void btnDeleteItems_Click(object sender, EventArgs e)

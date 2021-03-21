@@ -70,6 +70,7 @@
             this.btnOrder.TabIndex = 61;
             this.btnOrder.Text = "Order Now";
             this.btnOrder.UseVisualStyleBackColor = false;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // dataGridView1
             // 

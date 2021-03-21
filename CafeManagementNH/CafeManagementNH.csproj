@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddOrder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddOrder.Designer.cs">
-      <DependentUpon>AddOrder.cs</DependentUpon>
-    </Compile>
     <Compile Include="AdminPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +104,12 @@
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="MyLib.cs" />
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,9 +124,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddOrder.resx">
-      <DependentUpon>AddOrder.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AdminPage.resx">
       <DependentUpon>AdminPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderManage.resx">
       <DependentUpon>OrderManage.cs</DependentUpon>
@@ -348,6 +348,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\v666-sasi-20-coffeeday_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\realistic-coffee-background-with-drawings_79603-6071.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tea_cup_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_26px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menubackground11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menubackground12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_to_go_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_to_go_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
