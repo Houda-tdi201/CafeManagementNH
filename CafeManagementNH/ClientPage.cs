@@ -33,6 +33,8 @@ namespace CafeManagementNH
         {
             lblHello.Text="Hello "+_username+" !";
             lblUser.Text = "Welcome " + _username + " !";
+
+            panelCreators.Visible = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -81,6 +83,24 @@ namespace CafeManagementNH
         {
             Menu m = new Menu(_username);
             m.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            sidePanel.Height = btnView.Height;
+            sidePanel.Top = btnView.Top;
+
+            ViewOrder o = new ViewOrder(_username);
+            o.ShowDialog();
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (panelCreators.Visible == false)
+                panelCreators.Visible = true;
+            else if (panelCreators.Visible == true)
+                panelCreators.Visible = false;
         }
     }
 }

@@ -181,6 +181,9 @@
   <data name="checkmark_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checkmark_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="v666-sasi-20-coffeeday_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v666-sasi-20-coffeeday_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="down_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\down_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -247,6 +250,9 @@
   <data name="téléchargement2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\téléchargement2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="coffee_to_go_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee_to_go_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="98401104-coffee-background-design-with-coffee-beans-in-a-jute-bag-and-coffee-cherries-and-leaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\98401104-coffee-background-design-with-coffee-beans-in-a-jute-bag-and-coffee-cherries-and-leaves.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -264,6 +270,12 @@
   </data>
   <data name="v666-sasi-20-coffeeday_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\v666-sasi-20-coffeeday_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v666-sasi-20-coffeeday_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v666-sasi-20-coffeeday_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (10)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (10)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="091d4f1bebc76ea61eec0b9d8af26e5f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\091d4f1bebc76ea61eec0b9d8af26e5f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,7 +343,7 @@
   <data name="checkmark_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checkmark_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coffee_to_go_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coffee_to_go_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="client" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\client.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

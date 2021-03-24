@@ -294,6 +294,16 @@ namespace CafeManagementNH.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap client {
+            get {
+                object obj = ResourceManager.GetObject("client", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_window_32px {
             get {
                 object obj = ResourceManager.GetObject("close_window_32px", resourceCulture);
@@ -487,6 +497,16 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap images__10_1 {
             get {
                 object obj = ResourceManager.GetObject("images (10)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__10_2 {
+            get {
+                object obj = ResourceManager.GetObject("images (10)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -757,6 +777,26 @@ namespace CafeManagementNH.Properties {
         internal static System.Drawing.Bitmap v666_sasi_20_coffeeday_13 {
             get {
                 object obj = ResourceManager.GetObject("v666-sasi-20-coffeeday_13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v666_sasi_20_coffeeday_14 {
+            get {
+                object obj = ResourceManager.GetObject("v666-sasi-20-coffeeday_14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap v666_sasi_20_coffeeday_15 {
+            get {
+                object obj = ResourceManager.GetObject("v666-sasi-20-coffeeday_15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
